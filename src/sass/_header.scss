@@ -142,8 +142,9 @@
     opacity: 1;
   }
   
-  @media (max-height: 660px) {
-      color: rgb(97, 85, 81);  
+  @media (max-width: 500px) {
+    .header{ 
+      background-color: green; 
+    } 
   }
-  
 }
